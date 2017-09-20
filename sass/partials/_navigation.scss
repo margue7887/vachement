@@ -1,0 +1,178 @@
+/* header */
+
+.main_navbar{
+	border:0;
+	background-color:#FFF;
+	border-radius:0;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(4, 4, 5, 0.38);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(4, 4, 5, 0.38);
+	box-shadow: 0px 3px 5px 0px rgba(4, 4, 5, 0.38);
+}
+
+.main_navbar .navbar-brand{
+	width:300px;
+	min-height: auto;
+	height: auto;
+	padding-bottom:0;
+	text-align: left;
+}
+.main_navbar .navbar-brand .logo_bottom{
+	width: 100%;
+	float: left;
+	margin-top:10px;
+}
+.main_navbar .navbar-brand .logo_bottom p{
+	color:#a3c51d;
+	font-size:13px;
+	float: left;
+	line-height: 19px;
+	text-align: center;
+}
+.main_navbar .navbar-brand .logo_bottom img{
+	float: right;
+}
+
+.profile_trigger{
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	float: right;
+	margin-bottom: 8px;
+	margin-right: 5px;
+	margin-top: 8px;
+	padding: 7px 15px 6px;
+	position: relative;
+	cursor:pointer;
+}
+
+.main_navbar .inner_nav{
+	float: left;
+	padding:15px 0;
+}
+.main_navbar .inner_nav li a i{
+	text-align: center;
+	font-size:28px;
+	color:#d9d9d9;
+}
+.main_navbar .inner_nav li a{
+	color:#8e8e8e;
+	text-transform: uppercase;
+	font-size:10px;
+	text-align: center;
+	position: relative;
+	padding:10px 10px;
+	font-weight: 700;
+}
+.main_navbar .inner_nav li a.notification::after{
+	content: "\f005";
+	font-family: "FontAwesome";
+	position: absolute;
+	font-size:14px;
+	color:#e2007a;
+	top:0px;
+	right: 0px;
+}
+.main_navbar .inner_nav li a .number{
+	color:#a3c51d;
+	font-size: 16px;
+	font-weight: 700;
+	display: inline-block;
+	position: absolute;
+	bottom:-15px;
+	left:0;
+	right:0;
+}
+.main_navbar .inner_nav li a i span{
+	color:#d9d9d9;
+}
+.main_navbar .inner_nav li a > span{
+	display: block;
+}
+
+.main_navbar .inner_nav li.active a,.main_navbar .inner_nav li.active a i,.main_navbar .inner_nav li a:hover,.main_navbar .inner_nav li a:hover i,.main_navbar .inner_nav li a:hover i span{
+	color:#572381;
+	background: transparent !important;
+}
+
+.profile_top{
+	float: right;
+	width: 250px;
+	padding:20px 0;
+}
+.profile_top img{
+	width: 70px;
+}
+.profile_top .profile_details h2{
+	font-size:14px;
+	color:#e2007a;
+	font-weight: 700;
+	margin-top:10px;
+}
+.profile_top .progress_bar .progress{
+	width: 100px;
+	height: 8px;
+}
+.profile_top .progress_bar .progress-bar{
+	background-color:#e2007a;
+}
+.profile_top .progress_bar .progress{
+	float:left;
+}
+.profile_top .progress_bar > span{
+	float:right;
+	display: inline-block;
+	font-size:12px;
+	vertical-align: top;
+	margin-top:-5px;
+}
+.profile_top .logout_link{
+	color:#e2007a;
+	font-size:28px;
+	margin-top:10px;
+	display: inline-block;
+}
+.profile_top .logout_link:hover{
+	text-decoration: none;
+}
+
+/* MESSAGES NAV */
+
+.messages_nav{
+	border-radius:10px;
+	border:0;
+}
+.messages_nav > li:first-child{
+	background-color:#572381;
+	color:#FFF;
+	font-weight: 700;
+	padding:15px 15px;
+}
+.messages_nav > li:first-child span{
+	color:#a3c51d;
+}
+.messages_nav a{
+	border-bottom:1px solid #ececec;
+	padding:15px;
+	color:#8e8e8e;
+	font-weight: 400;
+}
+.messages_nav .form-inline .form-control{
+	box-shadow: none;
+	border:0;
+	width: 100%;
+	padding-left: 0;
+}
+.messages_nav .form-inline .btn{
+	border:0;
+	font-size:18px;
+}
+.messages_nav .form-inline .btn:hover{
+	background-color:#FFF;
+}
+.messages_nav .search_form .form-group{
+	width:80%;
+	float: left;
+}

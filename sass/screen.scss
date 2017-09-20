@@ -1,0 +1,36 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+ @import "partials/mixin";
+ @import "partials/variables";
+ @import "partials/couleur";
+ @import url(../fonts/stylesheet.css);
+ @import url(../ico/style.css);
+ 
+ /* BLOCKS */
+ .fullwidthrelative, .header {
+ 	width: 100%;
+ 	float: left;
+ 	position: relative; 
+ }
+
+ body {
+ 	background-image: url("../images/page_back.png");
+ 	background-size: 100% auto;
+ 	width: 100%;
+ 	font-family: Montserrat;
+ 	float: left;
+ 	background-repeat: no-repeat;
+ }
+ body.fixed{
+ 	position: fixed;
+ 	overflow:hidden;
+ 	height:100%;
+ }
+
+ @import "partials/header";
+ @import "partials/navigation";
+ @import "partials/content";
+ @import "partials/footer";

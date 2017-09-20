@@ -1,0 +1,850 @@
+/* MESSAGES PAGE */
+
+.shadow_box{
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(4, 4, 5, 0.38);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(4, 4, 5, 0.38);
+	box-shadow: 3px 3px 5px 0px rgba(4, 4, 5, 0.38);
+	background-color:#FFF;
+	border-radius:10px;
+	width: 100%;
+	float: left;
+}
+
+/* PROFILES BLOCK */
+
+.sidebar{
+	width: 100%;
+	float: left;
+}
+
+.profiles_block{}
+.profiles_block .profile_title,.posts .post_title{
+	background-color:#ececec;
+	padding:15px 15px;
+	color:#572381;
+	font-weight: 700;
+	margin:0;
+	font-size:18px;
+}
+.profiles_block ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+}
+.profiles_block ul li{
+	padding:15px;
+	width: 100%;
+	float: left;
+	border-bottom:1px solid #d7d7d7;
+}
+.profiles_block ul li h3{
+	margin:0;
+	color:#a3c51d;
+	font-size:14px;
+	font-weight: 700;
+}
+.profile_title i,.post_title i{
+	cursor: pointer;
+}
+.profiles_block ul li .details{
+	margin-top:10px;
+	width: 100%;
+	line-height: 20px;
+	float: left;
+}
+.profiles_block ul li .details .left{
+	color:#a542f6;
+	float: left;
+}
+.profiles_block ul li .details .left a{
+	color:#a542f6;
+	font-weight: 700;
+}
+
+.profiles_block ul li .details .right{
+	float: right;
+}
+.profiles_block ul li .details .right img{
+	border-radius:100px;
+	background-color:#a542f6;
+	border:2px solid #a542f6;
+}
+
+.posts{
+	width: 100%;
+	float: left;
+}
+.posts ul li h3{
+	color:#a542f6;
+	margin-bottom:10px;
+}
+.posts ul li p{
+	font-size:12px;
+	color:#9a9a9a;
+	line-height: 22px;
+}
+
+
+/* MESSAGES HEADER */
+
+.messages_header{
+	border-bottom:1px solid #d7d7d7;
+	width: 100%;
+	float: left;
+}
+.messages_header .messages_title{
+	color:#572381;
+	font-size:18px;
+	font-weight: 400;
+	margin:0;
+	padding:20px 0;
+}
+.messages_header .messages_title span{
+	color:#a3c51d;
+	font-size:14px;
+	margin-left:15px;
+	font-weight: 700;
+}
+.messages_header .breadcrumb{
+	background-color:transparent;
+	float: left;
+	padding:20px 0;
+	margin-bottom:0;
+}
+.messages_header .breadcrumb > li:first-child a{
+	color:#8e8e8e;
+}
+.messages_header .breadcrumb > li a{
+	color:#572381;
+	font-weight: 400;
+}
+.messages_header  .write_message{
+	position: relative;
+	float: right;
+	margin-right:-15px;
+}
+.messages_header  .write_message .dropdown .btn{
+	background-color:#ececec;
+	border:0;
+	border-radius:0;
+	padding:15px 15px 15px 20px;
+}
+.messages_header  .write_message .dropdown i{
+	font-size:28px;
+	color:#572381;
+}
+
+
+/* MESSAGES CONTENT */
+
+.messages_folder{
+	width: 100%;
+	float: left;
+}
+
+.messages_content{
+	width: 100%;
+	float: left;
+}
+.messages_sidebar{
+	display: block;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+.messages_action{
+	float: left;
+	width: 100%;
+	height:61px;
+}
+.messages_sidebar .messages_action{
+	border-bottom:1px solid #d7d7d7;
+	padding:20px;
+}
+.messages_sidebar .messages_action p{
+	margin-bottom:0;
+	color:#8e8e8e;
+}
+.messages_sidebar .messages_action p i{
+	margin-right:5px;
+	cursor: pointer;
+}
+.messages_sidebar .messages_action p i:hover{
+	color:#572381;
+}
+
+.message_profiles{
+	margin:0;
+	width: 100%;
+	float: left;
+	padding:0 20px 0 0;
+	list-style: none;
+}
+.message_profiles li{
+	border-bottom:1px solid #d7d7d7;
+	background-color:#f3f3f3;
+	padding: 15px;
+	display: block;
+	width: 100%;
+	float: left;
+}
+.message_profiles li a{
+	padding:0;
+	display: block;
+	width:100%;
+	float: left;
+	border:0;
+	color: #333;
+}
+.message_profiles li.active{
+	background-color:#e6d2f6;
+	border:0;
+}
+.message_profiles li.active a{
+	border:0;
+	background:transparent !important;
+}
+.message_profiles li:hover,.message_profiles li:hover a{
+	background-color:#e6d2f6;
+}
+.message_profiles li .image{
+	width:60px;
+	float: left;
+	margin-right:15px;
+}
+.message_profiles li .image img{
+	width: 100%;
+}
+.message_profiles li .content{
+	float: left;
+	display: block;
+	width: calc(100% - 75px);
+}
+.message_profiles li .content h2{
+	margin:0;
+	font-size:14px;
+	font-weight: 400;
+}
+.message_profiles li .content h2 i{
+	color:#e2007a;
+}
+.message_profiles li .content h2 span{
+	color:#9a9a9a;
+	font-size:12px;
+}
+.message_profiles li .content p{
+	color:#9a9a9a;
+	line-height: 16px;
+	font-size: 11px;
+	margin-bottom:0;
+	margin-top:5px;
+}
+
+.message_profiles li:hover h2,
+.message_profiles li:hover h2 span,
+.message_profiles li:hover p{
+	color:#572381;
+}
+
+/* MESSAGE SIDE */
+
+.message_detail{
+	width: 100%;
+	float: left;
+	background-color:#e6d2f6;
+	padding:10px 15px;
+	height: 60px;
+}
+.message_detail .profile_image{
+	float: left;
+	width: 50px;
+}
+.message_detail .detail{
+	width: calc(100% - 55px);
+	float: left;
+	margin-left:5px;
+}
+.message_detail .detail .left{
+	float: left;
+	margin-top:3px;
+}
+.message_detail .detail .left h3{
+	color:#572381;
+	font-size:14px;
+	margin:0;
+}
+.message_detail .detail .left p{
+	color:#572381;
+	font-size:12px;
+	margin-top:5px;
+	margin-bottom: 0;
+}
+.message_detail .detail .right{
+	float: right;
+}
+.message_detail .detail .right .dropdown .btn{
+	background: transparent;
+	border:0;
+}
+.message_detail .detail .right .dropdown .btn:focus{
+	box-shadow: none !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	outline: none !important;
+}
+.message_detail .detail .right .dropdown i{
+	color:#572381;
+	font-size:24px;
+	padding-top:8px;
+	cursor:pointer;
+}
+
+.message_content{
+	padding:20px 25px 20px 20px;
+	float: left;
+	position: relative;
+	width: 100%;
+	height:100%;
+}
+.message_content .message{
+	width: 80%;
+	float: left;
+	margin-bottom:15px;
+}
+.message_content .message.message_received {
+	float: right;
+}
+.message_content .message.message_received .content{
+	color:#572381;
+	float: right;
+	background-color:#e6d2f6;
+	border-radius: 5px;
+	padding:20px;
+	line-height: 20px;
+	font-size:11px;
+}
+.message_content .message.message_sent {
+	float: left;
+}
+.message_content .message.message_sent .content{
+	float: left;
+	background-color:#f5f5f5;
+	font-size:11px;
+	line-height: 20px;
+	border-radius: 5px;
+	padding:20px;
+}
+.message_content .message .message_time{
+	width: 100%;
+	float: left;
+	font-size:12px;
+	margin:5px 0;
+	color:#8e8e8e;
+}
+.message_content .message .message_time i{
+	color:#e2007a;
+}
+
+.message_content .message_date{
+	width: 100%;
+	text-align: center;
+	color:#a542f6;
+	font-weight: 700;
+	float: left;
+	margin-bottom:10px;
+}
+
+.messages_content .message_form{
+	border:1px solid #d7d7d7;
+	width: 100%;
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:-50px;
+	background: #FFF;
+	float: left;
+}
+.messages_content .message_form textarea{
+	border:0;
+	font-size:12px;
+	width: 390px;
+	padding:10px;
+	color:#9a9a9a;
+	height: 45px;
+}
+.messages_content .message_form .btn{
+	background-color:#ececec;
+	min-height: 50px;
+	width: 50px;
+	border-radius: 0;
+	border-left:1px solid #d7d7d7;
+	font-size:22px;
+	margin:0;
+}
+
+/* slidmscroll */
+
+.slimScrollDiv{width:100% !important;}
+.slimScrollBar{
+	opacity: 1 !important;
+	margin-right:5px !important;
+	width: 10px !important;
+}
+.slimScrollRail{
+	background-color:#d7d7d7;
+	width: 20px !important;
+	border-radius:0 !important;
+	display: block !important;
+}
+
+/* MIDDLE RESPONSIVE */
+
+@media (min-width:1436px){
+	.header .left_side .site_info{
+		margin-top: 100px;
+		margin-right: 20px;
+	}
+	.header .logo {
+		margin-top: 32%;
+	}
+	.header .right_side{
+		margin-top: 150px;
+	}
+}
+@media(min-width:993px) and (max-width:1100px){
+	.header .right_side{margin-top:100px;}
+	.header .right_side .registration_button a{width:170px;min-width:170px;height:170px;min-height:170px;background-size: 100% 100%;}
+	.header .right_side .registration_button a span:first-child{font-size:12px;}
+	.header .right_side .registration_button a span:first-child{margin-top:57px;}
+	.header .right_side .photo_block2,.header .right_side .photo_block1{width:185px;background-size:100% auto;}
+	.header .right_side .photo_block1 img,
+	.header .right_side .photo_block2 img{width:122px;}
+	.header .right_side .profile_block{margin-top:-115px;}
+}
+
+
+/* UPPER RESPONSIVE */
+
+@media(min-width:993px) and (max-width:1200px){
+	.main_navbar .inner_nav li a{
+		padding:10px 5px;
+	}
+	.main_navbar .profile_top{
+		width:180px;
+	}
+	.container{
+		width:100%;
+	}
+	.main_navbar .profile_top img{
+		width:100%;
+	}
+	.messages_nav .search_form .form-group{
+		width:70%;
+	}
+}
+
+
+/* TABLET RESPONSIVE */
+
+@media(min-width:768px) and (max-width:992px){
+	.header .right_side .photo_block1,
+	.header .right_side .photo_block2{
+		width:50%;
+		float: left;
+		background-size: 100% auto;
+	}
+	.header .left_side br{
+		display: none;
+	}
+	.header .right_side .photo_block1 img{
+		width:63%;
+	}
+	.header .right_side .photo_block2 img{
+		width:63%;
+	}
+	.header .right_side .profile_block{
+		width: 100%;
+		margin-top:-140px;
+	}
+	.header .right_side .registration_button{
+		margin-top:15px;
+	}
+	.header .logo img{
+		width: 100%;
+	}
+
+	.inner_nav{
+		display: none;
+	}
+	.navbar-toggle{
+		display: block;
+		margin-top:40px;
+	}
+
+	.message_profiles{
+		height: 300px !important;
+		display: none;
+	}
+
+	.message_content{
+		height: 627px !important;
+		overflow: auto;
+	}
+	.message_profiles{
+		height: 300px;
+		overflow: auto;
+	}
+	.messages_nav .search_form .form-group{
+		width:70%;
+	}
+
+	.navbar_right{float:right;}
+	.navbar_right .navbar-toggle{margin-top:0 !important;}
+}
+
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:767px){
+
+	.header .left_side{
+		text-align: left !important;
+	}
+	.header .left_side br{
+		display: none;
+	}
+	.header .left_side h1{
+		font-size:18px;
+	}
+	.site_terms{
+		padding-bottom:20px;
+		z-index: -1;
+	}
+	.header .left_side .site_info{
+		text-align: left;
+	}
+	.header .header_right{
+		width:100%;
+		float: left;
+	}
+	.header .header_right .links li a{
+		padding:18px 5px;
+	}
+	.header .header_right .header_button{
+		padding:27px 10px;
+	}
+	.header .header_right .header_button span{
+		padding:10px;
+		font-size:12px;
+	}
+	.header .left_side .site_info{
+		margin-top:20px;
+	}
+	.header .logo_footer,.header .logo img{
+		width: 100%;
+	}
+	.header .right_side{
+		margin-top:20px;
+	}
+	.header .right_side .photo_block1,
+	.header .right_side .photo_block2{
+		width:50%;
+		float: left;
+		background-size: 100% auto;
+	}
+	.header .right_side .photo_block1 img{
+		width:62%;
+		margin-left:27px;
+		margin-top:29px;
+	}
+	.header .right_side .photo_block2 img{
+		width:62%;
+		margin-left: 28px;
+		margin-top: 30px;
+	}
+	.header .right_side .profile_block{
+		width: 100%;
+		margin-top:-175px;
+	}
+	.header .right_side .registration_button{
+		margin-top:20px;
+	}
+	.header .right_side .registration_button{
+		width: 100%;
+		text-align: center;
+	}
+	.header .right_side .registration_button a{
+		width:auto;
+		display: inline-block;
+		float: none;
+	}
+	.header_button_hover{
+		position: relative;
+		left: auto;
+		right: auto;
+		top: auto;
+	}
+	.top_menu .menu-collapse ul li .header_button_hover a{
+		color: #fff;
+		font-size: 12px;
+	}
+	.advertisement img{
+		width: 100%;
+	}
+
+	.header .logo{margin-top: 20px;}
+	.left_side .logo{overflow: hidden;text-align: center;}
+	.left_side .logo img{width:170px;margin-bottom:-44px;display: inline-block;}
+	.header .right_side .photo_block1{margin-top:0;}
+	.header .right_side .profile_block{margin-top:-150px;}
+
+	.registration_button .mobile_button{
+		width: 100%;
+		float: left;
+	}
+	.registration_button .mobile_button a{
+		width:100% !important;
+		float: left;
+		height:auto !important;
+		padding:30px 0;
+		color:#FFF;
+		display: block;
+		background-image:url('../images/BTN Rectangle.png');
+		background-repeat: no-repeat;
+		background-repeat: no-repeat;
+		background-size:100% 100%;
+		background-position: center center;
+	}
+	.registration_button .mobile_button a span:first-child{
+		font-size:18px;
+		text-transform: uppercase;
+		display: block;
+	}
+	.registration_button .mobile_button a:hover{
+		text-decoration: none;
+	}
+
+	.header .right_side .profile_block{
+		border-radius:5px;
+		margin-top:-130px;
+		position: relative;
+	}
+	.header .right_side .profile_block .details{
+		background:transparent;
+		padding:0;
+	}
+	.header .right_side .profile_block .col-md-6:first-child{
+		background-color:#a543f4;
+		border-top-left-radius: 5px;
+	}
+	.header .right_side .profile_block .col-md-6:last-child{
+		background-color:#a1c310;
+		border-top-right-radius: 5px;
+	}
+	.header .right_side .profile_block .col-md-6 .member1_details{
+		padding:10px;
+	}
+	.header .right_side .profile_block .col-md-6 .member1_details br{
+		display: none;
+		font-size:12px;
+	}
+	.header .right_side .photo_block1 img {
+		margin-left: -3px;
+		margin-top: 21px;
+		width: 68%;
+	}
+	.header .right_side .photo_block2 img {
+		margin-left: 1px;
+		margin-top: 22px;
+		width:68%;
+	}
+	.terms_block img,.copyright img{
+		width:auto;
+		display: inline-block;
+	}
+	.header .right_side .photo_block1{
+		width:130px;
+		display: inline-block;
+		float:none;
+		height:280px;
+		margin-right:5px;
+	}
+	.header .right_side .photo_block2{
+		width:130px;
+		display: inline-block;
+		float:none;
+		height:280px;
+		margin-left:5px;
+	}
+	.right_side{text-align: center;}
+
+
+	/* messages */
+
+	/* header */
+	.main_navbar .navbar-brand{width:100%;}
+	.inner_nav{display: none;}
+	.profile_details{display: block !important;}
+	.main_navbar .profile_top{width:100%;}
+
+	.write_message{display: none;}
+
+	/* messages */
+	.messages_header .breadcrumb{display: none;}
+	.message_container{margin-top:30px;}
+
+	.message_profiles{height:auto !important;overflow:hidden !important;padding:0;}
+	.message_content{overflow:auto !important;}
+
+	.message_form .form-group{
+		float:left;
+		margin-bottom:0;
+	}
+	.message_form .form-group textarea{
+		float:left;
+		width:100%;
+		min-height: 0px;
+		resize: none;
+	}
+	.message_container{
+		margin-bottom:50px !important;
+	}
+
+	.navbar_right{float:right;}
+	.navbar_right > a{margin-top:0;margin-right:0;}
+	.navbar_right .profile_trigger{display: inline-block;margin-top:0;}
+	.navbar-brand > a img{max-width:180px;}
+
+	.top_menu .profile_top{
+		width:100%;
+		padding:10px 30px;
+		text-align: left;
+	}
+
+	.message_container .messages_folder{display: none;position: fixed;top:0px;bottom:0;background:#FFF;left:0;right:0;}
+	.messages_content .message_form{bottom:0;}
+
+	.message_detail .detail .right .dropdown .dropdown-toggle{
+		display: none !important;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	select,
+	textarea,
+	input {
+		font-size: 12px;
+	}
+}
+
+
+
+/* INDEX PAGE */
+
+.header .header_right .links li a,
+.header .header_right .links li a i,
+.header .header_right .social li a,
+.header .header_right .links li a i span::before,
+.header .left_side h1,
+.header .left_side .site_info p,
+.header .right_side .profile_block .member_stats {
+	color: $color1;
+}
+
+.header .left_side .site_info p:last-child {
+	color: $color4;
+}
+
+.header .header_right .header_button {
+	background-color: $color1;
+}
+
+.header .header_right .header_button span {
+	background-color: $color2;
+}
+
+.header .logo_footer p {
+	color: $color3;
+}
+
+.terms_block p {
+	color: $color5;
+}
+
+.footer .footer_social {
+	background-color: $color3;
+}
+
+/* MESSAGE PAGE */
+
+.main_navbar .navbar-brand .logo_bottom p,
+.main_navbar .inner_nav li a .number,
+.messages_nav > li:first-child span,
+.profiles_block ul li h3,
+.messages_header .messages_title span {
+	color: $mcolor1;
+}
+
+.main_navbar .inner_nav li a i,
+.main_navbar .inner_nav li a i span {
+	color: $mcolor2;
+}
+
+.main_navbar .inner_nav li a,
+.messages_nav a,
+.messages_header .breadcrumb > li:first-child a,
+.messages_sidebar .messages_action p,
+.message_content .message .message_time {
+	color: $mcolor3;
+}
+
+.main_navbar .inner_nav li a.notification::after,
+.main_navbar .profile_top .profile_details h2,
+.main_navbar .profile_top .logout_link,
+.message_profiles li .content h2 i,
+.message_content .message .message_time i {
+	color: $mcolor4;
+}
+.main_navbar .profile_top .progress_bar .progress-bar {
+	background-color: $mcolor4;
+}
+
+.main_navbar .inner_nav li.active a,.main_navbar .inner_nav li.active a i,.main_navbar .inner_nav li a:hover,.main_navbar .inner_nav li a:hover i,.main_navbar .inner_nav li a:hover i span,
+.profiles_block .profile_title,.posts .post_title,
+.messages_header .messages_title,
+.messages_header .breadcrumb > li a,
+.messages_header  .write_message .dropdown i,
+.messages_sidebar .messages_action p i:hover,
+.message_profiles li:hover h2,
+.message_profiles li:hover h2 span,
+.message_profiles li:hover p,
+.message_detail .detail .left h3,
+.message_detail .detail .left p,
+.message_detail .detail .right .dropdown i,
+.message_content .message.message_received .content {
+	color: $mcolor5;
+}
+
+.messages_nav > li:first-child {
+	background-color: $mcolor5;
+}
+
+.profiles_block ul li .details .left,
+.profiles_block ul li .details .left a,
+.posts ul li h3,
+.message_content .message_date {
+	color: $mcolor6;
+}
+
+.profiles_block ul li .details .right img {
+	background-color: $mcolor6;
+}
+
+.messages_content .message_form textarea,
+.message_profiles li .content p,
+.message_profiles li .content h2 span,
+.posts ul li p  {
+	color: $mcolor7;
+}
+
+

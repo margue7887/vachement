@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9hnre2');
+  src:  url('fonts/icomoon.eot?9hnre2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9hnre2') format('truetype'),
+    url('fonts/icomoon.woff?9hnre2') format('woff'),
+    url('fonts/icomoon.svg?9hnre2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Objet-dynamique-vectoriel:before {
+  content: "\e900";
+}
+.icon-Objet-dynamique-vectoriel1:before {
+  content: "\e901";
+}
+.icon-Objet-dynamique-vectoriel22 .path1:before {
+  content: "\e902";
+}
+.icon-Objet-dynamique-vectoriel22 .path2:before {
+  content: "\e903";
+  margin-left: -1.4052734375em;
+}
+.icon-Objet-dynamique-vectoriel22 .path3:before {
+  content: "\e904";
+  margin-left: -1.4052734375em;
+}
+.icon-Objet-dynamique-vectoriel3:before {
+  content: "\e905";
+}
+.icon-Objet-dynamique-vectoriel4:before {
+  content: "\e906";
+}
+.icon-Objet-dynamique-vectoriel5:before {
+  content: "\e907";
+}
+.icon-Objet-dynamique-vectoriel6 .path1:before {
+  content: "\e908";
+}
+.icon-Objet-dynamique-vectoriel6 .path2:before {
+  content: "\e909";
+  margin-left: -0.642578125em;
+}
+.icon-Objet-dynamique-vectoriel6 .path3:before {
+  content: "\e90a";
+  margin-left: -0.642578125em;
+}
+.icon-Objet-dynamique-vectoriel6 .path4:before {
+  content: "\e90b";
+  margin-left: -0.642578125em;
+}
+.icon-Objet-dynamique-vectoriel7:before {
+  content: "\e90c";
+}
+.icon-Objet-dynamique-vectoriel8:before {
+  content: "\e90d";
+}
+.icon-Objet-dynamique-vectoriel9:before {
+  content: "\e90e";
+}
+.icon-Objet-dynamique-vectoriel10:before {
+  content: "\e90f";
+}
+.icon-Objet-dynamique-vectoriel11:before {
+  content: "\e910";
+}
+.icon-Objet-dynamique-vectoriel21:before {
+  content: "\e911";
+}
+.icon-Objet-dynamique-vectoriel31:before {
+  content: "\e912";
+}
+.icon-Objet-dynamique-vectoriel51:before {
+  content: "\e913";
+}
+.icon-Objet-dynamique-vectoriel2 .path1:before {
+  content: "\e914";
+}
+.icon-Objet-dynamique-vectoriel2 .path2:before {
+  content: "\e915";
+  margin-left: -1.4052734375em;
+}
+.icon-Objet-dynamique-vectoriel2 .path3:before {
+  content: "\e916";
+  margin-left: -1.4052734375em;
+}
